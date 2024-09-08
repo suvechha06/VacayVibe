@@ -5,6 +5,12 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacayVibe.Web", "VacayVibe.Web\VacayVibe.Web.csproj", "{BCEAF553-56C1-408F-A15D-FD92530B6B09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacayVibe.Domain", "VacayVibe.Domain\VacayVibe.Domain.csproj", "{326D00EF-B0EF-4C66-925C-E06CC008E6D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacayVibe.Application", "VacayVibe.Application\VacayVibe.Application.csproj", "{2D78A7BA-28E9-43BB-8D89-D81D77B5CD80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacayVibe.Infrastructure", "VacayVibe.Infrastructure\VacayVibe.Infrastructure.csproj", "{D1DA008E-EDDA-44E1-A1C2-54EAF058721E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{BCEAF553-56C1-408F-A15D-FD92530B6B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCEAF553-56C1-408F-A15D-FD92530B6B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCEAF553-56C1-408F-A15D-FD92530B6B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326D00EF-B0EF-4C66-925C-E06CC008E6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326D00EF-B0EF-4C66-925C-E06CC008E6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326D00EF-B0EF-4C66-925C-E06CC008E6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326D00EF-B0EF-4C66-925C-E06CC008E6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D78A7BA-28E9-43BB-8D89-D81D77B5CD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D78A7BA-28E9-43BB-8D89-D81D77B5CD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D78A7BA-28E9-43BB-8D89-D81D77B5CD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D78A7BA-28E9-43BB-8D89-D81D77B5CD80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DA008E-EDDA-44E1-A1C2-54EAF058721E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DA008E-EDDA-44E1-A1C2-54EAF058721E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DA008E-EDDA-44E1-A1C2-54EAF058721E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DA008E-EDDA-44E1-A1C2-54EAF058721E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
