@@ -34,7 +34,7 @@ namespace VacayVibe.Web.Controllers
                 _context.Villas.Add(villa);
                 _context.SaveChanges();
                 TempData["success"] = "Villa created successfully!";
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index)); //other alternative, you can also simply return "Index"
             }
             return View(villa);
         }
@@ -57,7 +57,7 @@ namespace VacayVibe.Web.Controllers
                 _context.Villas.Update(villa);
                 _context.SaveChanges();
                 TempData["success"] = "Villa details updated successfully!";
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             return View(villa);
         }
@@ -81,7 +81,7 @@ namespace VacayVibe.Web.Controllers
                 _context.Villas.Remove(villaFromDb);
                 _context.SaveChanges();
                 TempData["success"] = "Villa deleted successfully!";
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             TempData["error"] = "Villa could not be deleted!"; 
             return View(villa);
