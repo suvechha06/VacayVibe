@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VacayVibe.Domain\VacayVibe.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

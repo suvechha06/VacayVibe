@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class="card-body border p-4">
-        <form method="post" class="row">
+        <form method="post" class="row" enctype="multipart/form-data">
             <div class="p-3">
                 <div asp-validation-summary="All"></div>
                 <div class="form-floating py-3 col-12">
@@ -38,8 +38,9 @@
                     <span asp-validation-for="Occupancy" class="text-danger"></span>
                 </div>
                 <div class="form-floating py-3 col-12">
-                    <input asp-for="@Model.ImageUrl" class="form-control border shadow" />
-                    <label asp-for="ImageUrl" class="ms-2"></label>
+                    <input asp-for="@Model.ImageUrl" hidden class="form-control border shadow" />
+                    <input asp-for="@Model.Image" class="form-control border shadow" />
+                    <label asp-for="Image" class="ms-2"></label>
                     <span asp-validation-for="ImageUrl" class="text-danger"></span>
                 </div>
                 <div class="row pt-2">
